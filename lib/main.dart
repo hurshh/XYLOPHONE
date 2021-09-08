@@ -13,6 +13,7 @@ class XylophoneApp extends StatelessWidget {
         backgroundColor: Colors.purple[900],
         body: SafeArea(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Expanded(
                   child: FlatButton(
